@@ -1,0 +1,1 @@
+SELECT "manager_id", "employee_id", name FROM _employee WHERE "manager_id" = 1

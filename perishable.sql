@@ -1,0 +1,1 @@
+SELECT "ingredient_id", name, "perishable" FROM _ingredient WHERE "perishable" = True

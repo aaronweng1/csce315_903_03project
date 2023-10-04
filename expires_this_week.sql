@@ -1,0 +1,1 @@
+SELECT ingredient_id, name, expiration_date FROM _ingredient WHERE expiration_date < (CURRENT_DATE + INTERVAL '1 week')

@@ -1,0 +1,1 @@
+SELECT name, "current_qty", "needed_qty" FROM _ingredient WHERE "current_qty" >= "needed_qty"
