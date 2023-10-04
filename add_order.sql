@@ -5,6 +5,6 @@ WITH max_id AS (
 INSERT INTO _customer_order(customer_order_id, employee_id, cost, order_date, order_time)
 SELECT new_id, 1, '$0.00', CURRENT_DATE, CURRENT_TIMESTAMP::timestamp(0) FROM max_id;
 
-select * from _customer_order
+SELECT * from _customer_order
 ORDER BY customer_order_id DESC
 LIMIT 10;

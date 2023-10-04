@@ -5,6 +5,6 @@ WITH max_id AS (
 DELETE FROM _customer_order
 WHERE customer_order_id = (SELECT new_id FROM max_id);
 
-select * from _customer_order
+SELECT * from _customer_order
 ORDER BY customer_order_id DESC
 LIMIT 10;

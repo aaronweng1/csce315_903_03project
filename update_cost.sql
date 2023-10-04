@@ -7,6 +7,6 @@ SET cost = '$1.00'
 FROM max_id
 WHERE customer_order_id = new_id;
 
-select * from _customer_order
+SELECT * from _customer_order
 ORDER BY customer_order_id DESC
 LIMIT 10;
